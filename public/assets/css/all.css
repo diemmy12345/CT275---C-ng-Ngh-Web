@@ -1,0 +1,141 @@
+body {
+  background: #f7f1e6;
+  font-family: Arial, sans-serif;
+}
+
+.header-top {
+  background: linear-gradient(135deg, #f3e2c7, #d9b98f, #b9855a);
+  border-bottom: 1px solid #c49a6c;
+}
+
+.logo-mark{
+    width: 100px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.logo-mark img{
+    transform: scale(1.5);
+}
+
+.logo-title{
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 800;
+    font-style: italic;
+    color: #5a2d0c;
+    line-height: 1;
+}
+
+
+.search-box {
+  height: 58px;
+  box-shadow: 0 8px 22px rgba(92, 64, 45, 0.16);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.search-box .form-control {
+  border: 2px solid #e2c6a2;
+  border-right: none;
+  background: #fffaf0;
+  color: #4b2e1f;
+  font-size: 18px;
+  padding-left: 24px;
+}
+
+.search-box .form-control:focus {
+  box-shadow: none;
+  border-color: #d3a875;
+}
+
+.search-btn {
+  width: 76px;
+  background: #6f7f52;
+  color: #fffaf0;
+  font-size: 24px;
+}
+
+.search-btn:hover {
+  background: #4f5d3a;
+  color: #fffaf0;
+}
+
+.icon-box {
+  width: 50px;
+  height: 50px;
+  background: #fff8e7;
+  color: #6b3f24;
+  border: 1px solid #e2c6a2;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  font-size: 21px;
+  box-shadow: 0 8px 18px rgba(92, 64, 45, 0.13);
+}
+
+strong {
+  color: #4b2e1f;
+  font-size: 15px;
+}
+
+.text-brown-light {
+  color: #6f5848;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 24px;
+  height: 24px;
+  background: #9f4f3f;
+  color: white;
+  border-radius: 50%;
+  border: 2px solid #fff8e7;
+  font-size: 12px;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+}
+
+.category-bar {
+  background: #fff4df;
+}
+
+.nav-item-book {
+  text-decoration: none;
+  color: #4b2e1f;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px 14px;
+  border-radius: 12px;
+  white-space: nowrap;
+  transition: 0.25s;
+}
+
+.nav-item-book i {
+  color: #6f7f52;
+  font-size: 21px;
+  margin-right: 6px;
+}
+
+.nav-item-book:hover {
+  background: #fffaf0;
+  color: #6f7f52;
+  box-shadow: 0 5px 15px rgba(92, 64, 45, 0.12);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  .logo-title {
+    font-size: 23px;
+  }
+}
