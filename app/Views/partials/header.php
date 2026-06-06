@@ -104,7 +104,7 @@
                     </a>
 
                     <a href="#" class="nav-item-book">
-                        <i class="bi bi-stars"></i> Sách tham khảo
+                        <i class="bi bi-stars"></i> Sách tâm lý
                     </a>
 
                     <a href="#" class="nav-item-book">
@@ -148,7 +148,7 @@
             </a>
 
             <a href="#" class="mobile-menu-item">
-                <span><i class="bi bi-stars"></i> Sách tham khảo</span>
+                <span><i class="bi bi-stars"></i> Sách tâm lý</span>
                 <i class="bi bi-chevron-right"></i>
             </a>
 
